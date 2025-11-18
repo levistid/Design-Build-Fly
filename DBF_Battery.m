@@ -1,5 +1,5 @@
-%% DBF Motor / Prop / Battery Sizing Tool (Physics-Corrected)
-% Iteratively solves motor/prop equilibrium at specified flight conditions
+%% DBF Motor / Prop / Battery Sizing Tool
+% Solves motor/prop equilibrium at specified flight conditions
 clear; clc;
 
 %% ===================== USER INPUTS ===============================
@@ -262,5 +262,6 @@ else
 end
 
 fprintf('======================================================\n');
+
 
 %% END SCRIPT
